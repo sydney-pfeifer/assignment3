@@ -1,0 +1,32 @@
+body {
+    background-color: black
+}
+
+.caption {
+    color: #bfbebe;
+    font-size: 1.5em;
+    font-family: monospace
+}
+
+#quote {
+    color: aliceblue;
+    background-color: darkgray;
+    font-family: cursive;
+    font-size: 1.5em
+}
+
+body nav ul li a {color: antiquewhite;
+    font-family: sans-serif
+}
+
+h1,
+h2 {
+    font-family: sans-serif;
+
+    color: whitesmoke;
+}
+
+.link {
+    color: whitesmoke;
+    font-family: sans-serif  
+}
