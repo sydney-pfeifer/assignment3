@@ -1,12 +1,24 @@
+html {
+    box-sizing: border-box;
+    margin:0;
+    color: #ccc;
+}
 body {
     background-color: black;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),url("https://www.ritzparis.com/sites/default/files/styles/1440x748/public/images/homepage_service/slides/entete_1440x748_0.jpg?itok=LPspfIb2");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(../images/background.jpg);
     
     background-size: cover;
     background-position: center;
     min-height: 100vh;
     
     display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex: 1;
     flex-direction: column;
 }
 
@@ -26,8 +38,12 @@ body {
 /*    border-radius: 15 px;*/
 }
 
-body nav ul li a {color: black;
-    font-family: sans-serif
+body nav ul li a {color: antiquewhite;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    
 }
 
 h1,
@@ -46,6 +62,20 @@ h1 {border: 2px solid #000000;
     }
 
 .link {
-    color: whitesmoke;
-    font-family: sans-serif  
+    color: antiquewhite;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+footer {
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 1.5em; 
+}
+@media screen and (max-width: 30rem) {
+    header, 
+    main, 
+    footer {
+        flex-direction: column;
+    }
 }
