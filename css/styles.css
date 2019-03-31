@@ -26,6 +26,7 @@ main {
     color: #bfbebe;
     font-size: 1.5em;
     font-family: monospace;
+    background-color: #717171
 }
 
 #quote {
@@ -33,9 +34,6 @@ main {
     background-color: darkgray;
     font-family: cursive;
     font-size: 1.5em;
-    background-image: linear-gradient(#FFFFFF, #FF0000);
-    border: 2px solid #ff0000;
-/*    border-radius: 15 px;*/
 }
 
 body nav ul li a {color: antiquewhite;
@@ -46,6 +44,12 @@ body nav ul li a {color: antiquewhite;
     
 }
 
+body main div {
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    align-items: center;
+}
 h1,
 h2 {
     font-family: sans-serif;
